@@ -4,7 +4,7 @@
 
 <br>
 
-# 🍊 Se a Vida Te Der Tangerinas: Landing Page de Fã
+# 🍊 Se a Vida Te Der Tangerinas: Landing Page
 
 Olá, amantes de doramas! Este projeto é uma landing page carinhosamente criada para o meu dorama favorito, "Se a Vida Te Der Tangerinas" (폭싹 속았수다). Uma homenagem vibrante à beleza da Ilha de Jeju, à resiliência de seus personagens e à poesia das memórias.
 
