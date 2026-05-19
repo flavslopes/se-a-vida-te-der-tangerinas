@@ -1,5 +1,7 @@
 import React from 'react';
 
+const imagePath = (fileName: string) => `${import.meta.env.BASE_URL}${fileName}`;
+
 const About: React.FC = () => {
   return (
     <section id="historia" className="py-24 bg-[#fffdf5]">
@@ -8,7 +10,7 @@ const About: React.FC = () => {
           <div className="w-full lg:w-1/2 relative">
             <div className="absolute -top-10 -left-10 w-40 h-40 bg-orange-100 rounded-full blur-3xl opacity-60" />
             <img 
-              src="/JejuIsland.jpg" 
+              src={imagePath('JejuIsland.jpg')}
               alt="Jeju Scenery" 
               className="rounded-2xl shadow-2xl relative z-10 border-8 border-white"
             />

@@ -1,5 +1,7 @@
 import React from 'react';
 
+const imagePath = (fileName: string) => `${import.meta.env.BASE_URL}${fileName}`;
+
 const QuoteSection: React.FC = () => {
   return (
     <section className="py-20 bg-orange-500 relative overflow-hidden">
@@ -7,7 +9,7 @@ const QuoteSection: React.FC = () => {
       <div className="max-w-4xl mx-auto text-center px-6 relative z-10">
         <div className="mb-8 flex justify-center">
           <img 
-            src="/tangerina 1 (2).png" 
+            src={imagePath('tangerina 1 (2).png')}
             alt="Tangerina" 
             className="w-32 md:w-40 h-auto drop-shadow-xl"
           />

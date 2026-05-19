@@ -1,11 +1,13 @@
 import React from 'react';
 
+const imagePath = (fileName: string) => `${import.meta.env.BASE_URL}${fileName}`;
+
 const galleryImages = [
-  '/WTangerines_Unit_s2-22_A-09484.webp',
-  '/se-a-vida-te-der-tangerinas-estreia-na-netflix-cena-serie-1024x581.jpg',
-  '/se-a-vida-te-der-tangerinas-2-parte.webp',
-  '/park-bo-gum-quando-a-vida-te-da-tangerinas-capa.jpg',
-  '/cena.webp',
+  imagePath('WTangerines_Unit_s2-22_A-09484.webp'),
+  imagePath('se-a-vida-te-der-tangerinas-estreia-na-netflix-cena-serie-1024x581.jpg'),
+  imagePath('se-a-vida-te-der-tangerinas-2-parte.webp'),
+  imagePath('park-bo-gum-quando-a-vida-te-da-tangerinas-capa.jpg'),
+  imagePath('cena.webp'),
 ];
 
 const Gallery: React.FC = () => {

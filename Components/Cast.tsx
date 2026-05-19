@@ -1,29 +1,31 @@
 import React from 'react';
 
+const imagePath = (fileName: string) => `${import.meta.env.BASE_URL}${fileName}`;
+
 const castMembers = [
   {
     name: 'IU (Lee Ji-eun)',
     role: 'Ae-soon (Jovem)',
     desc: 'Uma garota corajosa e rebelde que sonha em ser poetisa.',
-    image: '/Ae-soon.jpg'
+    image: imagePath('Ae-soon.jpg')
   },
   {
     name: 'Park Bo-gum',
     role: 'Gwan-shik (Jovem)',
     desc: 'Um rapaz diligente cujo amor por Ae-soon é sua maior força.',
-    image: '/Gwan-Sik.jpg'
+    image: imagePath('Gwan-Sik.jpg')
   },
   {
     name: 'Moon So-ri',
     role: 'Ae-soon (Idosa)',
     desc: 'Reflete sobre sua vida vibrante e cheia de lutas em Jeju.',
-    image: '/Ae-soon idosa.webp'
+    image: imagePath('Ae-soon idosa.webp')
   },
   {
     name: 'Park Hae-joon',
     role: 'Gwan-shik (Idoso)',
     desc: 'O companheiro eterno que cuidou de Ae-soon por décadas.',
-    image: '/Gwan-shik (Idoso).webp'
+    image: imagePath('Gwan-shik (Idoso).webp')
   }
 ];
 

@@ -1,5 +1,7 @@
 import React from 'react';
 
+const imagePath = (fileName: string) => `${import.meta.env.BASE_URL}${fileName}`;
+
 const Curiosities: React.FC = () => {
   return (
     <section id="curiosidades" className="py-24 bg-orange-50">
@@ -43,7 +45,7 @@ const Curiosities: React.FC = () => {
           </div>
           <div className="w-full lg:w-1/2 flex justify-center">
             <img 
-              src="/atores.webp" 
+              src={imagePath('atores.webp')}
               alt="Elenco de apoio" 
               className="rounded-xl shadow-xl w-full max-w-lg object-cover h-auto border-4 border-white"
             />
@@ -60,7 +62,7 @@ const Curiosities: React.FC = () => {
           </div>
           <div className="w-full lg:w-1/2 flex justify-center">
             <img 
-              src="/As Haenyeo.jpg" 
+              src={imagePath('As Haenyeo.jpg')}
               alt="As Haenyeo de Jeju" 
               className="rounded-xl shadow-xl w-full max-w-lg object-cover h-auto border-4 border-white"
             />
